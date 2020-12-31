@@ -15,8 +15,7 @@ secret_number = randint(1, 100)
 print("I'm thinking of a number between 1 and 100.")
 print("Try to guess the number. I'll let you know if you're close.")
 print("Enter 'q' at any time to quit.")
-#For testing only.
-print(secret_number)
+
 #Our closeness ranges.
 warm = range(1,15)
 hot = range(1,5)

@@ -14,8 +14,7 @@ If not guessed, program shows number and asks to play again.
 # Initialize the winning number.
 secret_number = randint(1, 100)
 secret_number_range = range(1,101)
-print("I'm thinking of a number between 1 and 100.\nTry to guess the number. I'll let you know if you're close.\nEnter 'q' at any time to quit.")
-print(secret_number)
+print("I'm thinking of a number between 1 and 100.\nTry to guess the number in 8 tries. I'll let you know if you're close.\nEnter 'q' at any time to quit.")
 # Set our flag for the while loop.
 active = True
 first_guess = True
